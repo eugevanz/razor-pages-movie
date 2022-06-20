@@ -1,0 +1,15 @@
+﻿@page
+@model ThreeRazorPagesUI.AddGodModel
+@{
+    ViewData["Title"] = "Add a new Title";
+}
+
+<h1>Add a New Head</h1>
+
+<form method="post">
+    <input type="text" asp-for="Head.Title" placeholder="Street name & number" />
+    <input type="text" asp-for="Head.Genre" placeholder="City" />
+    <input type="text" asp-for="Head.ReleaseDate" placeholder="Province" />
+    <input type="text" asp-for="Head.Price" placeholder="Postal Code" />
+    <button type="submit">Submit</button>
+</form>

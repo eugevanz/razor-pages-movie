@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - 3 Razor Pages</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div class="navbar">
+        <div class="title">
+            <a asp-area="" asp-page="/Index" class="title-text">3RP</a>
+        </div>
+        <div class="button-container">
+            <a id="patriarch" class="button-text">Patriarch</a>
+        </div>
+        <div class="button-container">
+            <a id="descendant" class="button-text">Descendant</a>
+        </div>
+        <div class="button-container">
+            <a id="pneuma" class="button-text">Pneuma</a>
+        </div>
+    </div>
+    <main>
+        @RenderBody()
+    </main>
+    <div class="help-container">
+        <span class="icon">question_mark</span>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

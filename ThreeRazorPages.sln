@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeRazorPagesUI", "ThreeRazorPagesUI\ThreeRazorPagesUI.csproj", "{A7236884-9A52-4FE0-BDEC-84BABA900F0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7236884-9A52-4FE0-BDEC-84BABA900F0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7236884-9A52-4FE0-BDEC-84BABA900F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7236884-9A52-4FE0-BDEC-84BABA900F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7236884-9A52-4FE0-BDEC-84BABA900F0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95D393B2-DE93-4CB0-9F18-F1A0F5A25C39}
+	EndGlobalSection
+EndGlobal
